@@ -1,0 +1,16 @@
+
+## **19. test/test_sensors.ino**
+
+```cpp
+#include <Arduino.h>
+
+void setup() {
+  Serial.begin(115200);
+  Serial.println("Sensor Test Utility");
+}
+
+void loop() {
+  // Basic sensor test code
+  Serial.println("Sensor test utility - use main project for full functionality");
+  delay(1000);
+}
