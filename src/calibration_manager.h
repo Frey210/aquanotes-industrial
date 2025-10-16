@@ -28,7 +28,6 @@ private:
     int progress;
     
     String getCalibrationInstruction(CalibrationType type);
-    String getSensorName(CalibrationType type);
     bool checkStability(float newValue);
     void sendCalibrationCommand();
     
@@ -43,6 +42,9 @@ public:
     float getCurrentValue();
     int getProgress();
     bool isStable();
+    
+    // Ubah ini dari private ke public
+    String getSensorName(CalibrationType type);
 };
 
 extern CalibrationManager calibrationManager;

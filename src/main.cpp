@@ -6,6 +6,7 @@
 #include "menu_system.h"
 #include "time_manager.h"
 #include "calibration_manager.h"
+#include <ArduinoJson.h>
 
 // ==================== GLOBAL VARIABLES ====================
 unsigned long lastSensorRead = 0;

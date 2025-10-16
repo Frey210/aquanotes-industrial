@@ -1,4 +1,5 @@
 #include "menu_system.h"
+#include <ArduinoJson.h>
 
 MenuSystem menuSystem;
 
@@ -258,6 +259,7 @@ void MenuSystem::handleCalibrationProgress() {
         return;
     }
     
+    // Sekarang bisa mengakses getSensorName karena sudah public
     displayManager.showCalibrationProgress(
         calibrationManager.getSensorName(calibrationManager.getCurrentCalibration()),
         calibrationManager.getInstruction(),

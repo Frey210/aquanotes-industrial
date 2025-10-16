@@ -1,4 +1,5 @@
 #include "display_manager.h"
+#include <ArduinoJson.h>
 
 DisplayManager displayManager;
 

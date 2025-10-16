@@ -1,5 +1,6 @@
 #include "sensor_manager.h"
 #include "time_manager.h"
+#include <ArduinoJson.h>
 
 SensorManager sensorManager;
 
