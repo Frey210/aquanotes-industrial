@@ -1,5 +1,3 @@
----
-
 # 💧 **Aquanotes | Industrial Water Quality Monitor**
 
 > **Professional multi-sensor system for precise and reliable water quality monitoring — with OLED display, modular architecture, and cloud connectivity.**
